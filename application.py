@@ -11,7 +11,8 @@ import ssl #bypassing ssl connection
 ssl._create_default_https_context = ssl._create_unverified_context
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 
 @app.route("/", methods = ['GET'])
 def homepage():
