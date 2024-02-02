@@ -1,6 +1,6 @@
 {
   "routes": [
     { "src": "/", "dest": "/" },
-    { "src": "application", "destination": "/" }
+    { "src": "/application.py", "dest": "/" }
   ]
 }
