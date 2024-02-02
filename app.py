@@ -3,7 +3,10 @@ from flask_cors import CORS,cross_origin
 import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
-import logging
+import logging 
+import csv
+logging.basicConfig(filename="scrapper.log", level=logging.INFO)
+
 import ssl #bypassing ssl connection
 ssl._create_default_https_context = ssl._create_unverified_context
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
@@ -38,6 +41,7 @@ def index():
             fw = open(filename, "w")
             headers = "Product, Customer Name, Rating, Heading, Comment \n"
             fw.write(headers)
+            
             reviews = []
             for i in comment_box:
                 try:
@@ -73,6 +77,7 @@ def index():
                 mydict = {"Product": searchString, "Name": name, "Rating": rating, "CommentHead": commentHead,
                           "Comment": custComment}
                 reviews.append(mydict)
+                
             logging.info("log my final result {}".format(reviews))
             return render_template('result.html', reviews=reviews[0:(len(reviews)-1)])
         except Exception as e:
