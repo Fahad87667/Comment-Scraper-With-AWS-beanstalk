@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import logging 
 import csv
+import os
+
 logging.basicConfig(filename="scrapper.log", level=logging.INFO)
 
 import ssl #bypassing ssl connection
@@ -91,4 +93,4 @@ def index():
 
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0",debug=False,port=5000)
