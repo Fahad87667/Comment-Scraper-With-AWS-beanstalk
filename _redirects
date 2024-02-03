@@ -1,4 +1,0 @@
-# _redirects
-
-/static/* /static/:splat 200
-/template/* /template/:splat 200
