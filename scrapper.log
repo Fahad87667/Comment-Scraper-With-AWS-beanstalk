@@ -1,0 +1,42 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8501
+ * Running on http://192.168.152.127:8501
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.152.127 - - [03/Feb/2024 12:28:04] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.152.127 - - [03/Feb/2024 12:28:10] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.152.127 - - [03/Feb/2024 12:28:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'asusvivobook14', 'Name': 'Ram  Prakash', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': "Every thing is good Best laptop for student Replacement  service is very good Batery is too good to studyI am using for 20 days and didn't face any problem"}, {'Product': 'asusvivobook14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'I refer Only tow Difference Person College Going Students And Office Workers'}, {'Product': 'asusvivobook14', 'Name': 'HImanshu Hs', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent product in this price range under 30k but battery backup is not as expected only 3 4 hrs'}, {'Product': 'asusvivobook14', 'Name': 'Dharma N', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Received today... This laptop is a very good buy in this price range. The only drawback as of now is screen display. The sound quality is superb. Very little heat is observed.'}, {'Product': 'asusvivobook14', 'Name': 'Anand  Kaushalendra kaushal', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for it \U0001f525'}, {'Product': 'asusvivobook14', 'Name': 'Vivek Karmakar', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': "I have been using for 10 days. Till now the performance is very good. Sometimes fingerprint doesn't work .overall very good performance in this range.."}, {'Product': 'asusvivobook14', 'Name': 'Harshit  Goyal', 'Rating': '3', 'CommentHead': 'Fair', 'Comment': 'I by this lap 28000k Battery drain fast... disappointed and touch pad is very legyy only show do not buy it'}, {'Product': 'asusvivobook14', 'Name': 'Priyanka Gowda', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'I love this laptop value for money \U0001f4b0 Performance 10/10Display 10/10Battery Back up 10/8All over rating 10/09'}, {'Product': 'asusvivobook14', 'Name': 'vankudothu Ramu', 'Rating': '1', 'CommentHead': 'Terrible product', 'Comment': 'Very bad product no parches, your amount and time west. battery and body part also poor quality.'}, {'Product': 'asusvivobook14', 'Name': 'Durgesh singh Yadav', 'Rating': '3', 'CommentHead': 'Fair', 'Comment': 'Battery backup is very poor Around 3 hours backup'}, {'Product': 'asusvivobook14', 'Name': 'Durgesh singh Yadav', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Battery backup is very poor Around 3 hours backup'}]
+INFO:werkzeug:192.168.152.127 - - [03/Feb/2024 12:29:15] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.152.127 - - [03/Feb/2024 12:29:16] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.152.127 - - [03/Feb/2024 12:29:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8501
+ * Running on http://192.168.0.102:8501
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:URL can't contain control characters. '/search?q=i phone 12' (found at least ' ')
+INFO:root:URL can't contain control characters. '/search?q=IPHONE 14' (found at least ' ')
+INFO:root:URL can't contain control characters. '/search?q=i phone 13' (found at least ' ')
+INFO:root:URL can't contain control characters. '/search?q=i phone' (found at least ' ')
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:URL can't contain control characters. '/search?q=Iphone15 PRO max' (found at least ' ')
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
