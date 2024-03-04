@@ -1,7 +1,8 @@
-flask==2.2.5
-flask-cors==4.0.0
-requests==2.31.0
-beautifulsoup4==4.12.3
+streamlit
+flask
+flask-cors
+requests
+beautifulsoup4
 bs4
 certifi
 chardet
