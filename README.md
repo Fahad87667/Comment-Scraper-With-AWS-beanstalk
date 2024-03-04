@@ -1,18 +1,16 @@
-# Review Scraper with AWS Elastic Beanstalk
+# Review Scraper
 
 ## Overview
 
-This project is a Review Scraper ,implemented with Python, leveraging AWS Elastic Beanstalk for deployment. It allows users to scrape Reviews from specified products and store the collected data in a structured format.
+This project is a Review Scraper ,implemented with Python. It allows users to scrape Reviews from specified products and store the collected data in a structured format.
 
 ## Features
 
 Scraping Functionality: Utilizes web scraping techniques to gather reviews from specified products.
-AWS Elastic Beanstalk Deployment: Easily deploy and manage the application using AWS Elastic Beanstalk.
 Structured Data Storage: Stores scraped data in a CSV file for easy analysis and retrieval.
 ##Requirements
 
-1. Python 3.x
-2. AWS Account with Elastic Beanstalk access
+1. Python 3.8
 
 ## Contributing
 
